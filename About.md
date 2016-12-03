@@ -6,7 +6,7 @@ image: assets/images/iceclimbing.jpg
 nav-menu: yes
 ---
 <header>
-	<h2>The Designer, The maker</h2>
+	<h2>The Designer</h2>
 </header>
 I’m currently a product designer at MoveWith Inc. helping to redefine the future of fitness. Working at an early stage startup has allowed me the freedom to work on various aspects of design. I'm always looking to to mentor other upcoming designers and expanding my knowledge and understanding as a designer.
 
@@ -24,21 +24,7 @@ Below are some of my favorite photos.
 
 <h4>Fit</h4>
 <span class="image fit"><img src="assets/images/pic03.jpg" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-	</div>
-</div>
+
 
 <header>
 	<h2>The DJG</h2>
@@ -49,6 +35,8 @@ I absolutely love traveling and taking pictures. I wrote once:
 "As a solo traveler I constantly found myself interacting with people from varying backgrounds; ultimately, with each interaction, it occurred to me that each human being is a microcosm of relativity, orbs filled with galaxies of neural connections that light up with unique patterns that signify values, interests, and passions"
 
 Below are some of my favorite photos.
+
+{% include instagram.html %}
 
 <header>
 	<h2>The Social Worker</h2>

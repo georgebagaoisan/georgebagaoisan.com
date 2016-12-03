@@ -17,3 +17,35 @@
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
+	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/instafeed.min.js"></script>
+
+	<!-- <script type="text/javascript">
+
+	  var userFeed = new Instafeed({
+	    get: 'user',
+	    userId: '211081009',
+	    clientId: '	e43339c054ec4dc3ab313f7cf910ac44',
+	    accessToken: '211081009.e43339c.431345bbd7e1451cadf33948d9166d47',
+	    resolution: 'standard_resolution',
+	    template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /><span>{{likes}}{{comments}}</span></a>',
+	    sortBy: 'most-recent',
+	    limit: 32,
+	    links: false
+	  });
+	  userFeed.run();
+	</script> -->
+
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '211081009',
+    clientId: 'e43339c054ec4dc3ab313f7cf910ac44',
+    accessToken: '211081009.e43339c.431345bbd7e1451cadf33948d9166d47',
+    resolution: 'standard_resolution',
+    template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+    sortBy: 'most-recent',
+    limit: 4,
+    links: false
+  });
+  userFeed.run();
+</script>
