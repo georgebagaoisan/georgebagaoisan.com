@@ -6,7 +6,7 @@ image: assets/images/iceclimbing.jpg
 nav-menu: yes
 ---
 <header>
-	<h2>The Designer</h2>
+	<h2>The Designer, The maker</h2>
 </header>
 I’m currently a product designer at MoveWith Inc. helping to redefine the future of fitness. Working at an early stage startup has allowed me the freedom to work on various aspects of design. I'm always looking to to mentor other upcoming designers and expanding my knowledge and understanding as a designer.
 
