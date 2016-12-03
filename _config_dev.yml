@@ -11,7 +11,7 @@ title-normal: Product Designer
 email: hello@george-designer.com
 description: I research, ideate solutions, document with purpose, design beautiful and engaging interfaces, create prototypes, and iterate design solutions ad infimum.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://58430f5dd6865d063c504ffc--mariner-ant-47012.netlify.com/" # the base hostname & protocol for your site
+url: "http://mariner-ant-47012.netlify.com" # the base hostname & protocol for your site
 author:
 street_address:
 city: San Francisco
